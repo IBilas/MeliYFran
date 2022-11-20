@@ -6,11 +6,14 @@
     <title>"Meli y Fran"</title>
     <link href="estillos.css" rel="stylesheet" type="text/css">
 </head>
-<body id="body">
+<body>
     <form action="" method="post">
-        <label for="archivo">Carga tu foto aca</label>
-        <input id="archivo" type="file"><br>
-        <input type="submit" value="Enviar">
+        <div class="file-select" id="src-file" >
+            <input type="file" name="src-file" aria-label="Foto">
+          </div><br>
+        <div class="">
+            <button class="enviar" type="submit">Enviar</button>
+        </div>
     </form>
 </body>
 </html>
